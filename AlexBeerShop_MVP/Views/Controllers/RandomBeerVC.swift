@@ -9,10 +9,15 @@ import UIKit
 import SnapKit
 import Kingfisher
 
+protocol RandomBeerView: AnyObject {
+    func randomBeerReset(beer: SingleBeer)
+}
+
 final class RandomBeerVC: UIViewController {
     // MARK: - Elements
+    var randomVCPresenter: RandomVCPresenter!
+    
     private let beerViewTemplate = DetailBeerView()
-    private let networkRequest: NetworkService
     private let randomButton: UIButton = {
         let randomButton = UIButton()
         randomButton.backgroundColor = .orange
@@ -28,10 +33,10 @@ final class RandomBeerVC: UIViewController {
         addtargets()
     }
     // MARK: - Initialization
-    init(networkRequest: NetworkService = NetworkRequest()) {
-        self.networkRequest = networkRequest
+    init() {
         super.init(nibName: nil, bundle: nil)
     }
+    
     required init?(coder: NSCoder) {
         return nil
     }
@@ -40,6 +45,7 @@ final class RandomBeerVC: UIViewController {
         view.backgroundColor = .white
         title = "Random beer"
     }
+    
     private func setupUI() {
         view.addSubview(beerViewTemplate)
         beerViewTemplate.snp.makeConstraints { make in
@@ -54,15 +60,18 @@ final class RandomBeerVC: UIViewController {
             make.height.equalTo(30)
         }
     }
+    
     private func addtargets() {
         randomButton.addTarget(self, action: #selector(getRandomBeer), for: .touchUpInside)
     }
     // MARK: - @objc method
     @objc private func getRandomBeer() {
-        networkRequest.getRandomBeer(from: "BeerDataSet") { [weak self] beer in
-            guard let self, let beer = beer else { return }
-            beerViewTemplate.configureView(singleBeer: beer)
-        }
+        randomVCPresenter.fetchRandomBeer()
     }
 }
-
+// MARK: - RandomBeerView
+extension RandomBeerVC: RandomBeerView {
+    func randomBeerReset(beer: SingleBeer) {
+        beerViewTemplate.configureView(singleBeer: beer)
+    }
+}

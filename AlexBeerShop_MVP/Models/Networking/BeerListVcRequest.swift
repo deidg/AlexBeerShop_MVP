@@ -8,14 +8,14 @@
 import Foundation
 
 protocol NetworkService {
-    func getBeerList(from fileName: String, completion: (([SingleBeer]) -> Void)?)
-    func searchBeerByID(from fileName: String, id: Int, completion: @escaping (SingleBeer?) -> Void?)
-    func getRandomBeer(from fileName: String, completion: @escaping (SingleBeer?) -> Void?)
+    func getBeerList(completion: (([SingleBeer]) -> Void)?)
+    func searchBeerByID(id: Int, completion: @escaping (SingleBeer?) -> Void?)
+    func getRandomBeer(completion: @escaping (SingleBeer?) -> Void?)
 }
 
-class NetworkRequest: NetworkService {   // BeerListVcRequest.swift
-    func getBeerList(from fileName: String, completion: (([SingleBeer]) -> Void)?){
-        if let sourceUrl = Bundle.main.url(forResource: fileName, withExtension: "json") {
+class NetworkRequest: NetworkService {
+    func getBeerList(completion: (([SingleBeer]) -> Void)?){
+        if let sourceUrl = Bundle.main.url(forResource: "BeerDataSet", withExtension: "json") {
             do {
                 let data = try Data(contentsOf: sourceUrl)
                 let decoder = JSONDecoder()
@@ -26,8 +26,9 @@ class NetworkRequest: NetworkService {   // BeerListVcRequest.swift
             }
         }
     }
-    func searchBeerByID(from fileName: String, id: Int, completion: @escaping (SingleBeer?) -> Void?) {
-        if let sourcesuUrl = Bundle.main.url(forResource: fileName, withExtension: "json") {
+    
+    func searchBeerByID(id: Int, completion: @escaping (SingleBeer?) -> Void?) {
+        if let sourcesuUrl = Bundle.main.url(forResource: "BeerDataSet", withExtension: "json") {
             do {
                 let data = try Data(contentsOf: sourcesuUrl)
                 let decoder = JSONDecoder()
@@ -38,9 +39,10 @@ class NetworkRequest: NetworkService {   // BeerListVcRequest.swift
             }
         }
     }
-    func getRandomBeer(from fileName: String, completion: @escaping (SingleBeer?) -> Void?) {
+    
+    func getRandomBeer(completion: @escaping (SingleBeer?) -> Void?) {
         let randomInt = Int.random(in: 0..<25)
-        if let sourceUrl = Bundle.main.url(forResource: fileName, withExtension: "json") {
+        if let sourceUrl = Bundle.main.url(forResource: "BeerDataSet", withExtension: "json") {
             do {
                 let data = try Data(contentsOf: sourceUrl)
                 let decoder = JSONDecoder()
