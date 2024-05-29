@@ -7,23 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FAC648E92BE11B37001231E2 /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC648E82BE11B37001231E2 /* DetailVC.swift */; };
+		FAC648EB2BE11C05001231E2 /* DetailBeerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC648EA2BE11C05001231E2 /* DetailBeerView.swift */; };
+		FAC648ED2BE11D79001231E2 /* SearchVCPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC648EC2BE11D79001231E2 /* SearchVCPresenter.swift */; };
+		FAC648EF2BE12593001231E2 /* RandomVCPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC648EE2BE12592001231E2 /* RandomVCPresenter.swift */; };
 		FADA07222BDBE7B100DA461E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADA07212BDBE7B100DA461E /* AppDelegate.swift */; };
 		FADA07242BDBE7B100DA461E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADA07232BDBE7B100DA461E /* SceneDelegate.swift */; };
-		FADA07262BDBE7B100DA461E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADA07252BDBE7B100DA461E /* ViewController.swift */; };
-		FADA07292BDBE7B100DA461E /* Base in Resources */ = {isa = PBXBuildFile; fileRef = FADA07282BDBE7B100DA461E /* Base */; };
+		FADA07262BDBE7B100DA461E /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADA07252BDBE7B100DA461E /* TabBarController.swift */; };
 		FADA072B2BDBE7B600DA461E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FADA072A2BDBE7B600DA461E /* Assets.xcassets */; };
 		FADA072E2BDBE7B600DA461E /* Base in Resources */ = {isa = PBXBuildFile; fileRef = FADA072D2BDBE7B600DA461E /* Base */; };
+		FADA07432BDBF92E00DA461E /* BeerDataSet.json in Resources */ = {isa = PBXBuildFile; fileRef = FADA07422BDBF92E00DA461E /* BeerDataSet.json */; };
+		FADA07452BDBF99300DA461E /* BeersListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADA07442BDBF99300DA461E /* BeersListVC.swift */; };
+		FADA07472BDBF9A500DA461E /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADA07462BDBF9A500DA461E /* SearchVC.swift */; };
+		FADA07492BDBF9B800DA461E /* RandomBeerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADA07482BDBF9B800DA461E /* RandomBeerVC.swift */; };
+		FADA074B2BDBFB4300DA461E /* BeerListVcRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADA074A2BDBFB4300DA461E /* BeerListVcRequest.swift */; };
+		FADA074F2BDBFD3900DA461E /* BeerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADA074E2BDBFD3900DA461E /* BeerCell.swift */; };
+		FADA07522BDD54A600DA461E /* BeersModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADA07512BDD54A600DA461E /* BeersModel.swift */; };
+		FADA07542BDD54EE00DA461E /* BeerListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADA07532BDD54EE00DA461E /* BeerListPresenter.swift */; };
+		FAF51E152BF8ED5500516FA4 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = FAF51E142BF8ED5500516FA4 /* SnapKit */; };
+		FAF51E182BF8ED6000516FA4 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = FAF51E172BF8ED6000516FA4 /* Kingfisher */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FAC648E82BE11B37001231E2 /* DetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
+		FAC648EA2BE11C05001231E2 /* DetailBeerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailBeerView.swift; sourceTree = "<group>"; };
+		FAC648EC2BE11D79001231E2 /* SearchVCPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchVCPresenter.swift; sourceTree = "<group>"; };
+		FAC648EE2BE12592001231E2 /* RandomVCPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomVCPresenter.swift; sourceTree = "<group>"; };
 		FADA071E2BDBE7B100DA461E /* AlexBeerShop_MVP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlexBeerShop_MVP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FADA07212BDBE7B100DA461E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FADA07232BDBE7B100DA461E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FADA07252BDBE7B100DA461E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FADA07282BDBE7B100DA461E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FADA07252BDBE7B100DA461E /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		FADA072A2BDBE7B600DA461E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FADA072D2BDBE7B600DA461E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FADA072F2BDBE7B600DA461E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FADA07422BDBF92E00DA461E /* BeerDataSet.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = BeerDataSet.json; sourceTree = "<group>"; };
+		FADA07442BDBF99300DA461E /* BeersListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeersListVC.swift; sourceTree = "<group>"; };
+		FADA07462BDBF9A500DA461E /* SearchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchVC.swift; sourceTree = "<group>"; };
+		FADA07482BDBF9B800DA461E /* RandomBeerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomBeerVC.swift; sourceTree = "<group>"; };
+		FADA074A2BDBFB4300DA461E /* BeerListVcRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerListVcRequest.swift; sourceTree = "<group>"; };
+		FADA074E2BDBFD3900DA461E /* BeerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerCell.swift; sourceTree = "<group>"; };
+		FADA07512BDD54A600DA461E /* BeersModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeersModel.swift; sourceTree = "<group>"; };
+		FADA07532BDD54EE00DA461E /* BeerListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerListPresenter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +55,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAF51E182BF8ED6000516FA4 /* Kingfisher in Frameworks */,
+				FAF51E152BF8ED5500516FA4 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +82,90 @@
 		FADA07202BDBE7B100DA461E /* AlexBeerShop_MVP */ = {
 			isa = PBXGroup;
 			children = (
-				FADA07212BDBE7B100DA461E /* AppDelegate.swift */,
-				FADA07232BDBE7B100DA461E /* SceneDelegate.swift */,
-				FADA07252BDBE7B100DA461E /* ViewController.swift */,
-				FADA07272BDBE7B100DA461E /* Main.storyboard */,
-				FADA072A2BDBE7B600DA461E /* Assets.xcassets */,
-				FADA072C2BDBE7B600DA461E /* LaunchScreen.storyboard */,
+				FADA07412BDBE91600DA461E /* Models */,
+				FADA073E2BDBE8DD00DA461E /* Views */,
+				FADA073F2BDBE8E300DA461E /* Presenters */,
+				FADA073D2BDBE8D000DA461E /* Application */,
+				FADA07402BDBE8F500DA461E /* Resourses */,
 				FADA072F2BDBE7B600DA461E /* Info.plist */,
 			);
 			path = AlexBeerShop_MVP;
+			sourceTree = "<group>";
+		};
+		FADA073D2BDBE8D000DA461E /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				FADA07212BDBE7B100DA461E /* AppDelegate.swift */,
+				FADA07232BDBE7B100DA461E /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		FADA073E2BDBE8DD00DA461E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FADA074C2BDBFD1200DA461E /* Elements */,
+				FADA074D2BDBFD2100DA461E /* Controllers */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FADA073F2BDBE8E300DA461E /* Presenters */ = {
+			isa = PBXGroup;
+			children = (
+				FADA07532BDD54EE00DA461E /* BeerListPresenter.swift */,
+				FAC648EC2BE11D79001231E2 /* SearchVCPresenter.swift */,
+				FAC648EE2BE12592001231E2 /* RandomVCPresenter.swift */,
+			);
+			path = Presenters;
+			sourceTree = "<group>";
+		};
+		FADA07402BDBE8F500DA461E /* Resourses */ = {
+			isa = PBXGroup;
+			children = (
+				FADA07422BDBF92E00DA461E /* BeerDataSet.json */,
+				FADA072A2BDBE7B600DA461E /* Assets.xcassets */,
+				FADA072C2BDBE7B600DA461E /* LaunchScreen.storyboard */,
+			);
+			path = Resourses;
+			sourceTree = "<group>";
+		};
+		FADA07412BDBE91600DA461E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FADA07502BDD548A00DA461E /* Networking */,
+				FADA07512BDD54A600DA461E /* BeersModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FADA074C2BDBFD1200DA461E /* Elements */ = {
+			isa = PBXGroup;
+			children = (
+				FADA074E2BDBFD3900DA461E /* BeerCell.swift */,
+				FAC648EA2BE11C05001231E2 /* DetailBeerView.swift */,
+			);
+			path = Elements;
+			sourceTree = "<group>";
+		};
+		FADA074D2BDBFD2100DA461E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FADA07252BDBE7B100DA461E /* TabBarController.swift */,
+				FADA07442BDBF99300DA461E /* BeersListVC.swift */,
+				FADA07462BDBF9A500DA461E /* SearchVC.swift */,
+				FADA07482BDBF9B800DA461E /* RandomBeerVC.swift */,
+				FAC648E82BE11B37001231E2 /* DetailVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		FADA07502BDD548A00DA461E /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				FADA074A2BDBFB4300DA461E /* BeerListVcRequest.swift */,
+			);
+			path = Networking;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +184,10 @@
 			dependencies = (
 			);
 			name = AlexBeerShop_MVP;
+			packageProductDependencies = (
+				FAF51E142BF8ED5500516FA4 /* SnapKit */,
+				FAF51E172BF8ED6000516FA4 /* Kingfisher */,
+			);
 			productName = AlexBeerShop_MVP;
 			productReference = FADA071E2BDBE7B100DA461E /* AlexBeerShop_MVP.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +216,10 @@
 				Base,
 			);
 			mainGroup = FADA07152BDBE7B100DA461E;
+			packageReferences = (
+				FAF51E132BF8ED5500516FA4 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				FAF51E162BF8ED6000516FA4 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = FADA071F2BDBE7B100DA461E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,9 +234,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FADA07432BDBF92E00DA461E /* BeerDataSet.json in Resources */,
 				FADA072B2BDBE7B600DA461E /* Assets.xcassets in Resources */,
 				FADA072E2BDBE7B600DA461E /* Base in Resources */,
-				FADA07292BDBE7B100DA461E /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +247,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FADA07262BDBE7B100DA461E /* ViewController.swift in Sources */,
+				FADA07522BDD54A600DA461E /* BeersModel.swift in Sources */,
+				FADA074B2BDBFB4300DA461E /* BeerListVcRequest.swift in Sources */,
+				FAC648EF2BE12593001231E2 /* RandomVCPresenter.swift in Sources */,
+				FAC648E92BE11B37001231E2 /* DetailVC.swift in Sources */,
+				FAC648EB2BE11C05001231E2 /* DetailBeerView.swift in Sources */,
+				FADA07262BDBE7B100DA461E /* TabBarController.swift in Sources */,
+				FADA07472BDBF9A500DA461E /* SearchVC.swift in Sources */,
 				FADA07222BDBE7B100DA461E /* AppDelegate.swift in Sources */,
+				FADA07492BDBF9B800DA461E /* RandomBeerVC.swift in Sources */,
+				FADA07452BDBF99300DA461E /* BeersListVC.swift in Sources */,
 				FADA07242BDBE7B100DA461E /* SceneDelegate.swift in Sources */,
+				FADA07542BDD54EE00DA461E /* BeerListPresenter.swift in Sources */,
+				FAC648ED2BE11D79001231E2 /* SearchVCPresenter.swift in Sources */,
+				FADA074F2BDBFD3900DA461E /* BeerCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		FADA07272BDBE7B100DA461E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FADA07282BDBE7B100DA461E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		FADA072C2BDBE7B600DA461E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -218,7 +330,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -275,7 +387,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -296,9 +408,10 @@
 				INFOPLIST_FILE = AlexBeerShop_MVP/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -306,9 +419,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "alex.AlexBeerShop-MVP";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -323,9 +440,10 @@
 				INFOPLIST_FILE = AlexBeerShop_MVP/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -333,9 +451,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "alex.AlexBeerShop-MVP";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -361,6 +483,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FAF51E132BF8ED5500516FA4 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+		FAF51E162BF8ED6000516FA4 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.11.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FAF51E142BF8ED5500516FA4 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FAF51E132BF8ED5500516FA4 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		FAF51E172BF8ED6000516FA4 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FAF51E162BF8ED6000516FA4 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = FADA07162BDBE7B100DA461E /* Project object */;
 }
